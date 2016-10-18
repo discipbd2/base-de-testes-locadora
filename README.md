@@ -9,7 +9,7 @@ a) tabela locacao:     1.500.000 regisros<br>
 Antes de aplicar os scripts crie o banco de dados locadora_populado aplicando as instruções abaixo:<br>
 **CREATE DATABASE locadora_populado**<br>
 <br>
-A criação de tabela e inclusão de dados foi realizada em um computaodr I7 com 8GB de Ram e Hd SATA de 1TB, utilizando-se do Windows 8.<br>
+A criação de tabela e inclusão de dados foi realizada em um computaodr I7 com 8GB de Ram e Hd SATA de 1TB, utilizando-se do Windows 8 ou Linux Ubuntu 16.04.1<br>
 <br>
 O consumo médio de Memória ram foi:<br>
 a) prompt do windows:1 MB<br>
