@@ -37,8 +37,8 @@ a) exec_cria_tabelas_insere_dados.bat
 #### No Linux<br>
 Baixe o arquivo linux_bd_locadora.tar.bz2 e descompacte o arquivo. <br>
 Entre na pasta e execute:<br>
-a) chmod +x exec_cria_tabelas_insere_dadosN.sh
-b) ./exec_cria_tabelas_insere_dadosN.sh
+a) chmod +x exec_cria_tabelas_insere_dadosN.sh <br>
+b) ./exec_cria_tabelas_insere_dadosN.sh <br>
 
 <br>
 ###ESQUEMA DO DATABASE<br>
