@@ -30,13 +30,15 @@ obs: para linux foi necessário aplicar \Set autocomit = off
 <br>
 ### Como executar os Scripts<br>
 #### No Windows
-Baixe os aquivos **bd_locadora.zip** e  **bd_locadora2.zip**, descompacte na mesma pasta.
+Baixe os aquivos **bd_locadora.zip** e  **bd_locadora2.zip**, descompacte na mesma pasta.<br>
+Entre na pasta e execute:<br>
+a) exec_cria_tabelas_insere_dados.bat
 
 #### No Linux<br>
-Baixe o arquivo linux_bd_locadora.tar.bz2 e descompacte o arquivo.<br>
+Baixe o arquivo linux_bd_locadora.tar.bz2 e descompacte o arquivo. <br>
 Entre na pasta e execute:<br>
-    chmod +x exec_cria_tabelas_insere_dadosN.sh <br>
-    ./exec_cria_tabelas_insere_dadosN.sh <br>
+a) chmod +x exec_cria_tabelas_insere_dadosN.sh
+b) ./exec_cria_tabelas_insere_dadosN.sh
 
 <br>
 ###ESQUEMA DO DATABASE<br>
