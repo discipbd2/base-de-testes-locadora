@@ -15,16 +15,29 @@ O consumo médio de Memória ram foi:<br>
 a) prompt do windows:1 MB<br>
 b) psql:1MB <br>
 <br>
-Tempo tempo de execução 
+Tempo tempo de execução - Windows
 <br>
 "inicio do processo" 14:30:41<br>
 "final do processo" 14:42:47<br>
+
+Tempo tempo de execução - linux 
+<br>
+"inicio do processo" 20:48:19
+"final do processo" 20:51:50
 <br>
 
+obs: para linux foi necessário aplicar \Set autocomit = off
 <br>
-###Como executar os Scripts<br>
-
+### Como executar os Scripts<br>
+#### No Windows
 Baixe os aquivos **bd_locadora.zip** e  **bd_locadora2.zip**, descompacte na mesma pasta.
+
+#### No Linux<br>
+Baixe o arquivo linux_bd_locadora.tar.bz2 e descompacte o arquivo.<br>
+Entre na pasta e execute:<br>
+    chmod +x exec_cria_tabelas_insere_dadosN.sh <br>
+    ./exec_cria_tabelas_insere_dadosN.sh <br>
+
 <br>
 ###ESQUEMA DO DATABASE<br>
 
@@ -35,7 +48,7 @@ Baixe os aquivos **bd_locadora.zip** e  **bd_locadora2.zip**, descompacte na mes
 ![alt tag](https://github.com/discipbd2/base-de-testes-locadora/blob/master/estado_do_banco_bd_locadora.png)
 
 <br>
-### Trecho de código de exemplo para Script 
+### Trecho de código de exemplo para Script no Windows 
 Tempo de execução para inserção na tabela clientes<br>
 Start: 13:29:51<br>
 Finish: 13:30:25<br>
@@ -49,3 +62,22 @@ echo "inicio do processo" %TEMP_INICIO%<br>
 echo "fim do processo" %time%<br>
 +++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
+
+
+### Trecho de código de exemplo para Script no Linux 
+Tempo de execução para inserção na tabela clientes<br>
+Start: 20:48:27<br>
+Finish: 20:48:39<br>
+<br>
+EXEMPLO DE COIGO EXECUTADO:<br>
++++++++++++++++++++++++++++++++++++++++++++++++<br>
+now=$(date +"%T")<br>
+psql -h localhost -d locadora_populado -U postgres -p 5432 -q -W -f script_InsertClienteN.sql<br>
+echo "inicio do processo de insercao cliente" $now<br>
+fim=$(date +"%T")<br>
+echo "fim do processo de insercao cliente" $fim<br>
++++++++++++++++++++++++++++++++++++++++++++++++<br>
+<br>
+
+
+
