@@ -45,11 +45,11 @@ b) ./exec_cria_tabelas_insere_dadosN.sh <br>
 
 ![alt tag](https://github.com/discipbd2/base-de-testes-locadora/blob/master/esquema_locadora.png)
 
-###ESTADO DO BANCO
+### ESTADO DO BANCO
 
 ![alt tag](https://github.com/discipbd2/base-de-testes-locadora/blob/master/estado_do_banco_bd_locadora.png)
 
-<br>
+
 ### Trecho de código de exemplo para Script no Windows 
 Tempo de execução para inserção na tabela clientes<br>
 Start: 13:29:51<br>
@@ -64,7 +64,6 @@ echo "inicio do processo" %TEMP_INICIO%<br>
 echo "fim do processo" %time%<br>
 +++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-
 
 ### Trecho de código de exemplo para Script no Linux 
 Tempo de execução para inserção na tabela clientes<br>
